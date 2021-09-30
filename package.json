@@ -2,7 +2,7 @@
   "name": "test_package",
   "version": "1.0.0",
   "description": "test",
-  "main": "index.js",
+  "main": "dist/TestPackage.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Pyatnyshkov/test_package/issues"
   },
-  "homepage": "https://github.com/Pyatnyshkov/test_package#readme"
+  "homepage": "https://github.com/Pyatnyshkov/test_package#readme",
+  "devDependencies": {
+    "webpack": "^5.55.0",
+    "webpack-cli": "^4.8.0"
+  }
 }
